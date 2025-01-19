@@ -369,7 +369,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #dc143c;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -532,16 +532,16 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 70%;
+    width: 75%;
 }
 .skills-content .right .css::before{
-    width: 50%;
-}
-.skills-content .right .js::before{
     width: 60%;
 }
+.skills-content .right .js::before{
+    width: 70%;
+}
 .skills-content .right .c::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .python::before{
     width: 90%;
